@@ -141,7 +141,16 @@ margin-right: auto;
 /* Main index */
 
 .hero_sct{
-    background-color: var(--dark-cl);
+    
+    background-image: url("../images/icons.svg/dark_bg.png") , url("../images/icons.svg/people_office_bg.png");
+    opacity: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: padding-box;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero_sct_centr {
@@ -176,7 +185,10 @@ margin-right: auto;
     letter-spacing: 0.04em;
     color: var(--white-cl);
 
+    border-radius: 4px;
+    border: none;
     background-color: var(--primary-brand-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
 
