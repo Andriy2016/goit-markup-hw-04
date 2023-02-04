@@ -345,17 +345,19 @@ margin-right: auto;
 }
 
 .customers_sct_client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--subtle-txt-cl);
     border-radius: 4px;
     fill: var(--subtle-txt-cl);
+    
 }
 
 .customers_sct_client:hover,
 .customers_sct_client:focus {
     fill: var(--pressed-state-cl);
     border: 1px solid var(--pressed-state-cl);
-    border-radius: 4px;
-    cursor: pointer;
 }
 
 /* Footer */
